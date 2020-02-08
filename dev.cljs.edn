@@ -1,3 +1,6 @@
 ^{:watch-dirs ["src"]
   :css-dirs   ["resources"]}
-{:main two048.core}
+^{:hot-reload-cljs true}
+
+{:main          two048.core
+ :optimizations :none}
